@@ -1,19 +1,56 @@
-.A{
-    background: #000;
-    height:100px;
-    width: 100px;
-    border: 1px solid black ;
-}  
-.B{
-    background: #95b819;
-    height:100px;
-    width: 100px;
-    border: 1px solid black ;
-}  
-.C{
-    background: #4c1fb6;
-    height:100px;
-    width: 100px;
-    border: 1px solid black ;
-}  
+/* .parent{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+}
 
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: absolute;
+
+} */
+
+
+.a{
+    background: #b3932c;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+ }
+ .b{
+    background: #20daab;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+ }
+ .c{
+    background: #3e07d6;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+ }
+ .d{
+    background: #6e041b;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: relative;    
+ }
+ .e{
+    background: #4ef778;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+ }
+ .f{
+    background: #ce09a3;
+    border: 1px solid rgb(207, 22, 176);
+    height: 100px;
+    width: 100px;
+ }
