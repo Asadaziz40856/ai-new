@@ -1,0 +1,142 @@
+div {
+    color: black;
+    margin: ;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.parent{
+    display: flex;
+    justify-content:space-evenly ;
+margin-top:100px;
+margin-left:1px ;
+
+}
+.parent2{
+    display: flex;
+    justify-content:space-evenly;
+margin-top:55px;
+margin: left 50px ;
+
+
+
+}
+
+
+.a{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+}
+
+.b{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+}
+
+.c{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+
+}
+
+.d{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+}
+
+.e{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+}
+
+.f{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+}
+
+.g{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+
+}
+
+.h{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+}
+
+
+.i{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+
+}
+
+.j{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+}
+
+.k{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+}
+
+.l{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+
+}
+
+.m{
+    height: 100px; 
+    width:150px ;
+    border:1px solid red ;
+    background-image:url("https://th.bing.com/th/id/OIP.wTNu7wk7QCo-9bk5gzi_dgAAAA?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+}
