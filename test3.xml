@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company[
+<!ELEMENT company (department)>
+<!ELEMENT department (name,location,employees)>
+<!ELEMENT employees (name,age,contant)>
+<!ELEMENT contant (email,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST department id CDATA #IMPLIED>
+<!ATTLIST employees id CDATA #IMPLIED>
+
+
+]>
+
+
+<company>
+    <department id = "101">
+        <name>xy company</name>
+        <location>shahrah e faisal</location>
+
+
+            <employees id = "55">
+                <name>AWAIS</name>
+                <age>19</age>
+
+                    <contant>
+                        <email>AWAIS15@gamil.com</email>
+                        <phone>01236548972</phone>
+                    </contant>
+
+        </employees>
+    </department>
+  
+</company>
