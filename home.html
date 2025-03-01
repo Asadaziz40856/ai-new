@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<style>
+    #title {
+        color: green;
+    }
+</style>
+<body>
+    <h1> JSON FILE</h1>
+    <div>
+        <div id="title"></div>
+    </div>
+    <script>
+        $(document).ready(function (){
+            $.ajax({
+                url :"https://jsonplaceholder.typicode.com/posts",
+                type : "GET",
+                success :function (data){
+                    //console.log(data)
+                    $.each(data,function (key,value ){
+                        $("#title").append("<br>",key+ "<br>",value.body,"<br>" )
+                    })
+                }
+            })
+        })
+    </script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #title {
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .post-box {
+            background-color: #f0f0f0;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-box p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON FILE</h1>
+    <div id="title"></div>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://jsonplaceholder.typicode.com/posts",
+                type: "GET",
+                success: function (data) {
+                    $.each(data, function (key, value) {
+                        $("#title").append(
+                            '<div class="post-box">' +
+                                '<p><strong>Body:</strong> ' + value.body + '</p>' +
+                            '</div>'
+                        );
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

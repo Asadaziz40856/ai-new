@@ -3,20 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/home.html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #b4e014;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-size: 22px;
+            color: #333;
+        }
+
+        .form-container label {
+            display: block;
+            font-weight: 500;
+            margin: 8px 0 4px;
+            color: #333;
+        }
+
+        .form-container input {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .form-container input:focus {
+            border-color: #66afe9;
+            box-shadow: 0 0 3px rgba(102, 175, 233, 0.6);
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4177db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+
+        .form-container p {
+            font-size: 12px;
+            color: #666;
+            margin-top: 15px;
+        }
+    </style>
+    <script>
+        function showPopup() {
+            alert("Form Submitted Successfully!");
+        }
+    </script>
 </head>
 <body>
-    <p id="name">ASAD AZIZ</p>
 
-    <script>
-        let name = document.getElementById("name").innerHTML = "<h1> ASAD AZIZ </h1>"
-        let name2 = document.getElementById("name")
-        name2.style.color = "green"
-        name2.style.backgroundColor = "orange"
-        name2.style.border = "2px solid black"
-        name2.style.margin = "auto"
-        name2.style.paddingLeft = "540px"
-        name2.style.marginTop = "340px"
-    </script>
+    <div class="form-container">
+        <h2>Register</h2>
+        <form onsubmit="showPopup(); return false;">
+            <div>
+                <label for="username">User Name</label>
+                <input type="text" id="username" name="username" >
+            </div>
+            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" >
+            </div>
+
+            <div>
+                <label for="contact">Contact</label>
+                <input type="text" id="contact" name="contact" >
+            </div>
+            
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" >
+            </div>
+            
+            <div>
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" >
+            </div>
+            
+            <button type="submit">Submit</button>
+            <p>By registering, you agree to our terms and conditions.</p>
+        </form>
+    </div>
+
 </body>
 </html>
